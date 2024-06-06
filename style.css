@@ -1,0 +1,70 @@
+/* * {
+  border: solid 1px blue;
+} */
+/* .navbar-nav {
+  margin-left: 200px;
+} */
+/* .container {
+  margin-top: 60px;
+}
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap");
+
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+.container-fluid {
+  margin-top: 100px;
+}
+.The Mandalorian {
+  margin-top: 30px;
+}
+section#s1 {
+  background-color: #E0E0E0;
+}
+section#s2 {
+  background-color: #ECF5FF;
+}
+section#s3 {
+  background-color: #F0FFF0;
+  padding-bottom: 180px;
+}
+
+
+/* 40px */
+.toTop-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 33%;
+  opacity: 0.6;
+  background: #E0E0E0;
+  cursor: pointer;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.toTop-arrow::before,
+.toTop-arrow::after {
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: #E0E0E0;
+  position: absolute;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 0.5rem;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 0.5rem;
+}
+.toTop-arrow:focus {
+  outline: none;
+}
